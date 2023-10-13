@@ -1,0 +1,3 @@
+SELECT name
+FROM mhl_cities
+WHERE ASCII(SUBSTRING(name, 1, 1)) BETWEEN 65 AND 90;
